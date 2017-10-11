@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Calendar Planner</string>
+    <string name="eventName">EVENT NAME</string>
+    <string name="yes">YES</string>
+    <string name="cancel">CANCEL</string>
+    <string name="startHour">START HOUR</string>
+    <string name="endHour">END HOUR</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="save">SAVE</string>
+    <string name="showEvents">Show events</string>
+    <string name="ok">OK</string>
+    <string name="wrongHour">INCORRECT START AND END HOURS</string>
+    <string name="wrongDay">INCORRECT START AND END DAYS</string>
+    <string name="place">PLACE</string>
+    <string name="startDay">START DAY</string>
+    <string name="endDay">END DAY</string>
+    <string name="fillName">FILL NAME</string>
+    <string name="fillPlace">FILL PLACE</string>
+    <string name="fillNameAndPlace">FILL NAME AND PLACE</string>
+    <string name="saved">EVENT SAVED</string>
+    <string name="noDate">DATE NOT DETERMINED</string>
+    <string name="noHour">HOUR NOT DETERMINED</string>
+    <string name="deleteEvent">Delete this event?</string>
+    <string name="incomingEvent">INCOMING EVENT</string>
+    <string name="setReminder">SET REMINDER</string>
+
+    <string-array name="spinnerArray">
+        <item>15 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+        <item>3 hours before</item>
+        <item>6 hour before</item>
+
+    </string-array>
+
+</resources>

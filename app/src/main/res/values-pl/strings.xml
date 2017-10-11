@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar Planner</string>
+    <string name="eventName">NAZWA WYDARZENIA</string>
+    <string name="yes">TAK</string>
+    <string name="cancel">ANULUJ</string>
+    <string name="startHour">GODZINA ROZPOCZĘCIA</string>
+    <string name="endHour">GODZINA ZAKOŃCZENIA</string>
+    <string name="description">OPIS</string>
+    <string name="save">ZAPISZ</string>
+    <string name="showEvents">Pokaż wydarzenia</string>
+    <string name="ok">OK</string>
+    <string name="wrongHour">NIEPOPRAWNE GODZINY ROZPOCZĘCIA I ZAKOŃCZENIA</string>
+    <string name="wrongDay">NIEPOPRAWNA DATA ROZPOCZĘCIA I ZAKOŃCZENIA </string>
+    <string name="place">MIEJSCE</string>
+    <string name="startDay">DZIEŃ ROZPOCZĘCIA</string>
+    <string name="endDay">DZIEŃ ZAKOŃCZENIA</string>
+    <string name="fillName">PODAJ NAZWĘ</string>
+    <string name="fillPlace">PODAJ MIEJSCE</string>
+    <string name="fillNameAndPlace">PODAJ NAZWĘ I MIEJSCE</string>
+    <string name="saved">WYDARZENIE ZAPISANE</string>
+    <string name="noDate">NIE OKREŚLONO DATY</string>
+    <string name="noHour">NIE OKREŚLONO GODZINY</string>
+    <string name="deleteEvent">Usunąć to wydarzenie?</string>
+    <string name="incomingEvent">NADCHODZĄCE WYDARZENIE</string>
+    <string name="setReminder">USTAW PRZYPOMNIENIE</string>
+
+    <string-array name="spinnerArray">
+        <item>15 minut przed</item>
+        <item>30 minut przed</item>
+        <item>1 godzinę przed</item>
+        <item>2 godziny przed</item>
+        <item>3 godziny przed</item>
+        <item>6 godzin przed</item>
+    </string-array>
+
+</resources>

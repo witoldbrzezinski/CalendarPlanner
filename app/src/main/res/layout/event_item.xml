@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:id="@+id/eventNameListTextView"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.60"
+            android:textColor="@android:color/white"
+            tools:text="name"/>
+
+        <TextView
+            android:id="@+id/eventPlaceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:textColor="@android:color/white"
+            tools:text="place"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/lightBlue">
+
+        <TextView
+            android:id="@+id/eventStartDateTextView"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            tools:text="DAY" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/lightBlue">
+        <TextView
+            android:id="@+id/eventDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/description" />
+    </LinearLayout>
+
+</LinearLayout>
